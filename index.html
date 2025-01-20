@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Personal Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi, I'm <span class="highlight">Gonçalo Almeida</span></h1>
+            <p class="subtitle">
+              Communication and Multimedia Student | Junior Developer
+            </p>
+            <div class="cta-buttons">
+              <a href="#contact" class="btn btn-primary">Get in Touch</a>
+              <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-image-container">
+              <img
+                src="ProfilePhoto.jpeg"
+                alt="Your Name"
+                class="profile-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a Communication and Multimedia student and I'm passionate
+              about programming. I have experience in several languages, such as
+              HTML, CSS, JavaScript, PHP, C, C++, C#, Python, SQL and Dart but I
+              am always open to learning new languages ​​or technologies. Right
+              now, I feel more comfortable in areas like frontend and backend
+              development, where I already have some practical experience.
+              However, I am excited to deepen my knowledge in other areas such
+              as cybersecurity.
+            </p>
+          </div>
+          <div class="qualities">
+            <div class="quality">
+              <i class="icon-code"></i>
+              <span>Problem Solver</span>
+            </div>
+            <div class="quality">
+              <i class="icon-book"></i>
+              <span>Quick Learner</span>
+            </div>
+            <div class="quality">
+              <i class="icon-briefcase"></i>
+              <span>Team Player</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Dart</span>
+              <span class="tag">C#</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">Python</span>
+              <span class="tag">C</span>
+              <span class="tag">C++</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+              <span class="tag">Visual Studio Code</span>
+              <span class="tag">Visual Studio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1564682895970-0dbb72e18d97?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Mental Health Application"
+            />
+            <div class="project-content">
+              <h3>Mental Health Application</h3>
+              <p>
+                This application is a solution that aims to help manage mental
+                health, allowing you to schedule appointments and facilitate
+                communication between users and psychologists
+              </p>
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">Firebase</span>
+              </div>
+              <a
+                href="https://github.com/Meida10/MentalHealthApp-Project"
+                class="project-link"
+                target="_blank"
+                >View Project <i class="icon-external-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1653361860636-36f2fb89eab9?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Task Management App"
+            />
+            <div class="project-content">
+              <h3>Calculator</h3>
+              <p>
+                Simple calculator, with a responsive and intuitive design, which
+                allows you to perform basic mathematical operations
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://github.com/Meida10/Calculator-Project"
+                class="project-link"
+                target="_blank"
+                >View Project <i class="icon-external-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contacts</h2>
+        <div class="contact-content">
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-details">
+          <div class="contact-links">
+            <a
+              href="mailto:goncaloribeiroalmeida@gmail.com"
+              class="contact-link"
+            >
+              <i class="icon-mail"></i>
+              <span>goncaloribeiroalmeida@gmail.com</span>
+            </a>
+            <a
+              href="https://github.com/Meida10"
+              target="_blank"
+              class="contact-link"
+            >
+              <i class="icon-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gon%C3%A7alo-ribeiro-de-almeida-3321bb333/"
+              target="_blank"
+              class="contact-link"
+            >
+              <i class="icon-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Gonçalo Almeida. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
